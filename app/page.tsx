@@ -1,5 +1,3 @@
-"use client";
-
 import { DashboardStats } from '@/components/DashboardStats';
 import { ProgressStats } from '@/components/ProgressStats';
 import { useDailyTasks } from '@/hooks/useDailyTasks';

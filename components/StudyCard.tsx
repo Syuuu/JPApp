@@ -4,10 +4,7 @@ import { useEffect, useState } from 'react';
 import { GrammarItem, VocabItem } from '@/types';
 import { useSpacedRepetition } from '@/hooks/useSpacedRepetition';
 
-type VocabCard = VocabItem & { type: 'vocab' };
-type GrammarCard = GrammarItem & { type: 'grammar' };
-// 通过带有 type 字段的可辨识联合，让 TypeScript 正确区分单词与语法卡片
-export type CardItem = VocabCard | GrammarCard;
+export type CardItem = (VocabItem | GrammarItem) & { type: 'vocab' | 'grammar' };
 
 type Props = {
   items: CardItem[];

@@ -16,7 +16,7 @@
 ## 部署到 Vercel
 1. 将代码推到 GitHub/GitLab。
 2. 在 Vercel 创建新项目并连接该仓库。
-3. 选择框架预设时请选择 **Next.js**（Vercel 会自动识别 app 路由结构），保持默认构建命令 `npm run build`，输出目录 `.next`，一键部署即可。
+3. 保持默认构建命令 `npm run build`，输出目录 `.next`，一键部署即可。
 
 ## 自定义与扩展
 - 修改每日新学数量：`hooks/useDailyTasks.ts` 顶部常量 `DAILY_NEW_VOCAB` / `DAILY_NEW_GRAMMAR`。

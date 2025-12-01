@@ -1,5 +1,4 @@
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
+// 该文件由 Next.js 自动生成的类型定义入口，避免手动修改。
