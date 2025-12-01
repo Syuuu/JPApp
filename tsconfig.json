@@ -16,7 +16,6 @@
     "incremental": true,
     "types": ["@types/node"],
     "paths": {
-      "@/types": ["./types/index"],
       "@/data/*": ["./data/*"],
       "@/components/*": ["./components/*"],
       "@/hooks/*": ["./hooks/*"],
